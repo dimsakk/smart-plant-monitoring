@@ -1,2 +1,3 @@
 # smart-plant-monitoring
-Smart plant pot with automatic monitoring, controlled from website
+The project consists of two main parts: the SoC, which is an ESP8266, and a website (https://zafora.ece.uowm.gr/~ece01724/) for remote control. The ESP, along with the sensors and a relay, is placed in a basket that can be hung on the edge of a flowerpot using hooks.
+The ESP measures soil moisture as well as air temperature and humidity at regular intervals and updates the website. Through the website, the user sets the minimum soil moisture threshold. The ESP receives this value, and when the soil moisture drops below this limit, the ESP turns on a relay, which can be connected to an irrigation system to water the flowerpot.
